@@ -1,0 +1,670 @@
+@media (min-width: 1425px) {
+	.header-mobile_menu {
+		display: none;
+	}
+	// -- License --	
+		.license {
+			background-size: 100% 100%;
+		}
+	// -- AND License --	
+
+	.advantages {
+		background-image: url('../img/advantages/advantages-bg.jpg');
+		background-size: 100% 100%;
+	}
+
+	.partners {
+		background-size:100% auto;
+	}
+
+	.works_content_image-title {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 1023px) {
+	// -- Header --
+		.header_top-wrap {
+			justify-content: space-between;
+			align-items: normal;
+		}
+		.header_top_row {
+			flex-wrap: wrap;
+		}
+		.header_top_row-left {
+			width: 33%;
+		}
+		.header_top_row-right {
+			justify-content: flex-end;
+			width: 67%;
+		}
+		
+		.header_top_social {
+			width: 100%;
+			justify-content: flex-end;
+			order: -1;
+
+			& > li {
+				padding: 14px 0 11px 0;
+			}
+		}
+		.header_top_adress {
+			padding-right: 0;
+		}
+		.header_menu {
+			flex-wrap: wrap;
+			margin-top: 25px;
+		}
+
+		.header_logo {
+			width: 100%;
+			order: 1;
+			margin-top: 25px;
+
+			& img {
+				width: 273px;
+			}
+		}
+
+		.header_menu_list.header_menu_list_left {
+			max-width: none;
+			width: 47%;
+		}
+
+		.header_menu_list.header_menu_list_right {
+			max-width: none;
+			width: 36%;
+		}
+
+		.header_content {
+			margin-top: -5px;
+			flex-direction: column;
+		}
+
+		.header_content_text-wrap {
+			max-width: none;
+		}
+		.header_content_title {
+			margin-bottom: 0;
+			max-width: 625px;
+		}
+
+		.header_content_subtitle {
+			margin: 10px 0 25px;
+		}
+
+		.header_content_form-wrap {
+			width: 100%;
+			max-width: none;
+			margin-top: 64px;
+		}
+
+		.form {
+			max-width: none;
+			padding: 38px 30px 60px 30px;
+		}
+
+		.form_input-wrap {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.form_input_name-wrap, 
+		.form_input_email-wrap, 
+		.form_input_message-wrap, 
+		.form_btn-submit-wrap {
+			width: 50%;
+		
+		}
+
+		.form_input_name-wrap, .form_input_message-wrap {
+			padding: 0 15px 0 0;
+		}
+		.form_input_email-wrap, .form_btn-submit-wrap {
+			padding: 0 0 0 15px;
+		}
+
+		.form_btn-submit-wrap {
+			position: relative;
+			transform: translateY(43%);
+		}
+
+		.form_link {
+			margin-top: 13px;
+		}
+	// -- AND Header --
+
+	// -- About Us --
+		.aboutUs {
+			padding-top: 230px;
+			padding-bottom: 150px;
+		}
+
+		.aboutUs_content {
+			flex-wrap: wrap;
+		}
+
+		.aboutUs_content_photo {
+			width: 100%;
+
+			& img {
+				width: 100%;
+			}
+		}
+		.aboutUs_content_text-wrap {
+			width: 100%;
+			padding-left: 0;
+		}
+	// -- AND About Us --
+
+	// -- License --
+		.license_content {
+			flex-wrap:  wrap;
+
+			&_item {
+				max-width: none;
+				width: 100%;
+				margin-bottom: 30px;
+
+				&_text {
+					padding-bottom: 16px;
+				}
+			}
+		}
+	// -- AND License --
+
+	//-- Works --
+		.works_content_image-title {
+			font-size: calc(15px + (7 + 7 * 0.7) * ((100vw - 768px) / 1230));
+			bottom: 26px;
+		}
+		.works_content_box-1_item-1-wrap {
+			padding-right: 18px;
+			padding-bottom: 18px;
+		}
+
+		.works_content_box-1_item-2-wrap {
+			padding-right: 18px;
+		}
+
+		.works_content_box-2_item-1-wrap  {
+			padding-bottom: 18px;
+		}
+
+		.works_content_box-2_item-2-wrap {
+			padding-bottom: 18px;
+			padding-left: 18px;
+		}
+	//-- AND Works --
+
+    //-- Excellence --
+    	.excellence_content {
+    		flex-wrap: wrap;
+
+    		&_item {
+    			width: 100%;
+    			max-width: none;
+    			flex-direction: row;
+    			margin-bottom: 29px;
+    			align-items: center;
+    			padding-top: 35px;
+
+    			&_header {
+    				width: 47%;
+    			}
+
+    			&_text {
+    				width: 53%;
+    				text-align: left;
+    			}
+    		}
+    	}
+    //-- AND Excellence --
+
+    //-- Footer --
+    	.footer {
+    		background-position: center;
+    	}
+    	.footer-wrap {
+    		flex-wrap: wrap;
+    	}
+
+    	.footer {
+    		&_col-1-wrap {
+    			width: 55%;
+    		}	
+    		&_col-2-wrap {
+    			width: 45%;
+    		}	
+    		&_col-3-wrap {
+    			width: 100%;
+    			order: -1;
+    			margin-bottom: 33px;
+    		}
+
+    		&_col-3 {
+    			max-width: none;
+    		}	
+    	}
+
+    //-- AND Footer --
+
+    //-- Contact --
+    	.contact {
+    		&_content {
+				flex-wrap: wrap;
+				transform: translateY(-19%);
+    		}
+
+    		&_box {
+				max-width: none;
+				margin-right: 0;
+				margin-bottom: 54px;
+    		}
+
+    		&_form-wrap {
+				max-width: none;
+    		}
+    	}
+    //-- AND Contact --
+}
+
+@media (max-width: 900px) {
+	// -- Header --
+	.header_menu_list.header_menu_list_left {
+	    width: 53%;
+	}
+	.header_menu_list.header_menu_list_right {
+		width: 38%;
+	}
+	// -- AND Header --
+
+	// -- Advantages -- 
+	.advantages_content_box-1_photo {
+		right: 2%;
+		bottom: -56%;
+	}
+	// -- AND Advantages -- 
+}
+
+@media (max-width: 767px) {
+
+	.content_width-big {
+		max-width: 1260px;
+		padding: 0 15px;
+	}
+
+	.content_width-middle {
+		max-width: 1220px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+
+	.content_width-small {
+		max-width: 990px;
+		padding: 0 15px;
+	}
+
+	// -- AND Header --
+	.header_top, .header_menu_list_left, .header_menu_list_right {
+		display: none;
+	}
+
+	.header_menu {
+		margin-top: 0;
+		justify-content: space-between;
+	}
+
+	.header_logo {
+		margin: 30px 0 0;
+		text-align: left;
+		width: auto;
+		order: 0;
+	}
+
+	.header_menu_burg-btn {
+		display: block;
+	}
+	// -- Header --
+
+	// -- About Us --
+		.aboutUs {
+			padding-top: 145px;
+		}
+	// -- AND About Us --	
+	
+	//-- Partners --
+		.partners_slider {
+			margin: 45px -7.5px 0;
+		}
+		.partners_slider_item-wrap {
+			padding: 0  7.5px;
+			display: flex !important;
+			justify-content: center;
+		}
+		.partners_slider_item {
+			width: 350px;
+			height: 192px;
+			padding: 0 26px;
+			& > img {
+				width: 100%;
+			}
+		}
+	//-- AND Partners --	
+
+	//-- Works --
+		.works_content {
+			flex-wrap: wrap;
+		}
+
+		.works_content_box-1, .works_content_box-2 {
+			width: 100%;
+		}
+
+		.image-box {
+			padding-bottom: 66%;
+		}
+
+		.works_content_image-title {
+			font-size: 15px;
+
+		}
+
+		.works_content_box-1_item-1-wrap, .works_content_box-1_item-2-wrap {
+			height: auto;
+			padding-right: 0;
+			padding-bottom: 23px;
+		}
+
+/*		.works_content_box-1_item-1, .works_content_box-1_item-2 {
+			padding-bottom: 56.25%;
+		}*/
+		.works_content_box-2_item-1-wrap {
+			display: none;
+		}
+
+		.works_content_box-2_item-2-wrap {
+			order: 1;
+		}
+
+		.works_content_box-2_item-2-wrap, .works_content_box-2_item-3-wrap {
+			width: 100%;
+			padding-left: 0;
+			padding-bottom: 23px;
+		}
+
+		.works_ecolabel_icon {
+			width: 107px;
+			height: 108px;
+			min-height: 108px;
+			min-width: 107px;
+		}
+
+		.works_ecolabel_text {
+			margin-left: 19px;
+
+			& > .works_ecolabel_text-main {
+				font-size: 19px;
+				line-height: 28px;
+			}
+
+			& > p {
+				line-height: 23px;
+			}
+		}
+
+
+	//-- AND Works --
+
+	.contact_box {
+	    min-width: auto;
+	}
+
+}
+
+@media (max-width: 645px) {
+	//-- Footer --
+
+
+		.footer {
+			&_col-1-wrap {
+				width: 100%;
+				order: 1;
+			}	
+			&_col-2-wrap {
+				width: 100%;
+				margin-bottom: 15px;
+			}
+			&_col-2 {
+				margin: 0;
+			}	
+		}
+
+	//-- AND Footer --
+}
+
+@media (max-width: 575px) {
+	// -- Header --
+	.header_logo img {
+	    width: 233px;
+	}
+
+	.header_content_title {
+		font-size: 24px;
+		line-height: 35px;
+	}
+
+	.header_content_subtitle {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.header_content_form-wrap {
+	    min-width: auto;
+	}
+
+	.form_input-wrap {
+		display: block;
+	}
+
+	.form_input_name-wrap, 
+	.form_input_email-wrap, 
+	.form_input_message-wrap, 
+	.form_btn-submit-wrap {
+		width: 100%;
+		padding:0;
+	}
+
+	.form_btn-submit-wrap {
+		position: static;
+		transform: translateY(0%);
+	}
+
+	// -- AND Header --
+
+	// -- About Us --
+		.aboutUs {
+			padding-bottom: 40px;
+		}
+	// -- AND Abou Us --
+
+	// -- Advantages --
+	.advantages_content_box-1 {
+		padding: 33px 30px 122px;
+	}
+	.advantages_content_box-1_photo {
+	    right: 0;		
+	    width: 100%;
+	    text-align: center;
+	    bottom: -153px;
+
+	    & > img {
+	    	max-width: 296px;
+	    }
+	}
+
+	.advantages_content_box-2 {
+		padding: 40px 15px 150px 30px;
+		&-wrap {
+			margin-left: auto;
+		}
+
+		&_photo {
+			top: auto;
+			width: 100%;
+			text-align: center;
+			left: 0;
+
+			& > img {
+				max-width: 300px;
+			}
+
+		}
+	}
+
+	.advantages_content_meta {
+		margin-top: 175px;
+
+		&_text {
+			padding-left: 22px;
+
+			& > p {
+				margin: 4px 0;
+			}
+		}
+	}
+	// -- AND Advantages -- 
+
+	//-- Excellence --
+		.excellence {
+			padding-bottom: 149px;
+		}
+		.excellence_content {
+
+			&_item {
+				width: 100%;
+				flex-direction: column;
+				padding-top: 35px;
+
+				&_header {
+					width: 100%;
+				}
+
+				&_text {
+					width: 100%;
+					text-align: center;
+				}
+			}
+		}
+	//-- AND Excellence --
+
+	//-- Footer --
+		.footer {
+		    background-position: 37% center;
+		}
+		.footer_bottom_logo {
+			display: none;
+		}
+	//-- AND Footer --
+
+	    //-- Contact --
+	    	.contact {
+
+	    		&_box {
+					padding-bottom: 35px;
+					margin-bottom: 40px;
+					padding-left: 30px;
+
+					&_list {
+						&_item {
+							margin-bottom: 28px;
+							&-phone {
+								width: 100%;
+							}
+							&-time {
+								width: 100%;
+							}
+							&-adress {
+								
+							}
+						}
+					}
+	    		}
+
+	    	}
+	    //-- AND Contact --
+
+	    //-- Popup Form --
+	    	.popup_header {
+	    		width: 105%;
+
+	    		&_title {
+	    			max-width: 210px;
+	    		}
+	    	}
+	    	.popup_form_list-box-wrap {
+	    		max-width: none;
+	    	}
+	    	.popup_form_user-info-box {
+	    		max-width: none;
+	    	}
+	    	.popup_form_list-box_item {
+	    		margin-right: 0;
+	    		max-width: none;
+	    	}
+
+	    	.popup_form_user-info-box_input-wrap {
+	    		width: 100%;
+				margin-right: 0;
+	    		& > input {
+	    			width: 100%;
+	    		}
+	    	}
+	    	.popup_form_list-box_item_input-wrap {
+	    		max-width: none;
+	    	}
+			.popup_form_btn-box {
+				max-width: none;
+
+				&_input-wrap {
+					max-width: none;
+
+					& > input {
+						font-size: 18px;
+					}
+				}
+
+				& > a {
+					display: inline-block;
+					width: 100%;
+					margin-left: 0;
+					margin-top: 27px;
+				}
+			}
+	    //-- AND Popup Form --
+}
+
+
+
+@media (max-width: 380px) {
+	// -- About Us --
+		.aboutUs {
+			padding-top: 180px;
+		}
+	// -- AND About Us --
+
+	//-- Footer --
+
+		.footer_col-2_btn {
+			& > span, & > a {
+				max-width: none;
+
+			}
+		
+		}
+
+		.footer_col-2 {
+		    max-width: none;
+		}
+
+	//-- AND Footer --
+}
